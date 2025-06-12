@@ -87,10 +87,10 @@ const Home = () => {
             <div className=''>
                 <div className='flex  justify-center items-center object-contain overflow-hidden mx-2 gap-2'>
                     <div className=' relative  overflow-hidden cursor-pointer'>
-                        <img className=' object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://www.batabd.com/cdn/shop/files/NS-web-square-banner2_800x800_crop_center.jpg?v=1738834638" alt="" />
+                        <img className=' object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://mainsailorimagebucket.s3.ap-southeast-1.amazonaws.com/uploads/all/vCkTMukSLdKK9IbUOarZmceCpPj5YZPmqrVcwGMC.jpg" alt="" />
                     </div>
                     <div className='relative  overflow-hidden cursor-pointer'>
-                        <img className=' object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://www.batabd.com/cdn/shop/files/mens-casual_800x800_crop_center.jpg?v=1727070538" alt="" />
+                        <img className=' object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://mainsailorimagebucket.s3.ap-southeast-1.amazonaws.com/uploads/all/zkf129uXoKwBUvg84r0TcaevkAjPcFj3eG1ROpOz.jpg" alt="" />
                     </div>
                 </div>
             </div>
@@ -101,13 +101,13 @@ const Home = () => {
             <div className="flex justify-center md:w-5/6 my-[20px] md:my-[40px]">
                 <div className='grid grid-cols-2 xl:grid-cols-3  gap-2 xl:gap-4 mx-2'>
                     <div className=" lg:h-[500px] lg:w-[500px] relative  overflow-hidden cursor-pointer">
-                        <img className='object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://www.batabd.com/cdn/shop/files/women_fba2b8ad-586d-4fce-8e62-50d0486dbe44_800x800_crop_center.jpg?v=1727068376" alt="" />
+                        <img className='object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://mainsailorimagebucket.s3.ap-southeast-1.amazonaws.com/uploads/all/opQz7FnKpxvDSCPSd4hFFvYQM4CYzLTr3qpePxnj.jpg" alt="" />
                     </div>
                     <div className=" lg:h-[500px] lg:w-[500px] relative  overflow-hidden cursor-pointer">
-                        <img className='object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://www.batabd.com/cdn/shop/files/mens-formal_800x800_crop_center.jpg?v=1727068128" alt="" />
+                        <img className='object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://mainsailorimagebucket.s3.ap-southeast-1.amazonaws.com/uploads/all/BbvSrvxIBzXsizv4yF5anhgJBQXhu0ClGazSoJir.jpg" alt="" />
                     </div>
                     <div className=" lg:h-[500px] lg:w-[500px] relative  overflow-hidden cursor-pointer">
-                        <img className='object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://www.batabd.com/cdn/shop/files/bags_feff123a-1643-4e72-8e3b-762049436368_800x800_crop_center.jpg?v=1727068282" alt="" />
+                        <img className='object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://mainsailorimagebucket.s3.ap-southeast-1.amazonaws.com/uploads/all/FG3ns9zfndnILCdtzgiCOl70kPiGhriVdPFnPk6u.jpg" alt="" />
                     </div>
                     <div className="xl:hidden  lg:h-[500px] lg:w-[500px] relative  overflow-hidden cursor-pointer">
                         <img className='object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://www.batabd.com/cdn/shop/files/women_fba2b8ad-586d-4fce-8e62-50d0486dbe44_800x800_crop_center.jpg?v=1727068376" alt="" />
@@ -118,7 +118,7 @@ const Home = () => {
                 <h1>OUR OTHER EVENTS</h1>
             </div>
             <div className=" my-10 ">
-                <div className='grid grid-cols-2  gap-3 mx-2'>
+                <div className='grid grid-cols-2 gap-3 mx-2'>
                     <div className="lg:h-[250px] lg:w-[250px] relative  overflow-hidden cursor-pointer">
                         <img className='object-contain relative z-0  transition-all duration-500 hover:scale-110' src="https://www.batabd.com/cdn/shop/files/north_640x.jpg?v=1720336875" alt="" />
                     </div>
