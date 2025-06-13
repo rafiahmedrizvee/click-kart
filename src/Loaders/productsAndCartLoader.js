@@ -6,7 +6,7 @@ export const productsAndCartLoader = async () => {
     const menProductData = await fetch("http://localhost:7000/men-products");
     const womenProductData = await fetch("http://localhost:7000/women-products");
     const childrenProductData = await fetch("http://localhost:7000/child-products");
-    const accessoriesProductData = await fetch("accessoriesProductsCategory.json");
+    const accessoriesProductData = await fetch("http://localhost:7000/accessories-products");
 
     // Parse the JSON data
     const products = await productData.json();

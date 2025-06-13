@@ -22,7 +22,7 @@ const AddService = () => {
     formData.append("description", description);
     formData.append("image", image);
 
-    fetch("http://localhost:7000/add-service", {
+    fetch("https://clothyfly-shop.vercel.app/add-service", {
       method: "POST",
       body: formData,
     })

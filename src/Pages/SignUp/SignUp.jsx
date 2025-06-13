@@ -21,7 +21,7 @@ const SignUp = () => {
   const savedUsers = (name, email) => {
     const user = { name, email };
 
-    fetch("http://localhost:7000/users", {
+    fetch("https://clothyfly-shop.vercel.app/users", {
       method: "POST",
       headers: {
         "content-type": "application/json",

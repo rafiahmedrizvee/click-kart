@@ -3,7 +3,6 @@ import React from "react";
 import toast from "react-hot-toast";
 import Loading from "../../Shared/Loading/Loading";
 
-
 const AllUsers = () => {
   const {
     data: users = [],
@@ -12,14 +11,14 @@ const AllUsers = () => {
   } = useQuery({
     queryKey: ["users"],
     queryFn: async () => {
-      const res = await fetch("http://localhost:7000/users");
+      const res = await fetch("https://clothyfly-shop.vercel.app/users");
       const data = await res.json();
       return data;
     },
   });
 
   const handleMakeAdmin = (id) => {
-    fetch(`http://localhost:7000/users/admin/${id}`, {
+    fetch(`https://clothyfly-shop.vercel.app/users/admin/${id}`, {
       method: "PUT",
     })
       .then((res) => res.json())
